@@ -1,7 +1,7 @@
 # LPHScan
 ScanQRCode
 
-![image](https://https://github.com/iosraven/LPHScan/IMG_ScanQRCode.PNG)
+![image](https://https://github.com/iosraven/LPHScan/LPHScan/IMG_InputQRCode.PNG)
 ![image](https://https://github.com/iosraven/LPHScan/IMG_InputQRCode.PNG)
 /*
  
