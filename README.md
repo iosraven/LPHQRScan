@@ -1,5 +1,8 @@
 # LPHScan
 ScanQRCode
+
+![image](https://https://github.com/iosraven/LPHScan/IMG_ScanQRCode.PNG)
+![image](https://https://github.com/iosraven/LPHScan/IMG_InputQRCode.PNG)
 /*
  
  调用说明：
