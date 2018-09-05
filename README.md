@@ -1,5 +1,5 @@
-# LPHScan
-ScanQRCode
+# LPHQRScan
+LPHQRScan
 
 /*
  
