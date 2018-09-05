@@ -13,12 +13,12 @@
 		51C302AC213E811A00A7BBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C302AA213E811A00A7BBFA /* LaunchScreen.storyboard */; };
 		51C302AF213E811A00A7BBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C302AE213E811A00A7BBFA /* main.m */; };
 		51C302D4213F550400A7BBFA /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C302C8213F550300A7BBFA /* ExampleVC.m */; };
-		51C302D5213F550400A7BBFA /* Icon_Scan_flashLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C302CA213F550400A7BBFA /* Icon_Scan_flashLight.png */; };
-		51C302D6213F550400A7BBFA /* Icon_Scan_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C302CB213F550400A7BBFA /* Icon_Scan_hand.png */; };
 		51C302D7213F550400A7BBFA /* InputQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C302CD213F550400A7BBFA /* InputQRCodeVC.m */; };
 		51C302D8213F550400A7BBFA /* InputQRCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C302CE213F550400A7BBFA /* InputQRCodeVC.xib */; };
 		51C302D9213F550400A7BBFA /* LPHScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C302D0213F550400A7BBFA /* LPHScanVC.m */; };
 		51C302DA213F550400A7BBFA /* LPScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C302D2213F550400A7BBFA /* LPScanView.m */; };
+		51C302FF213F7ED100A7BBFA /* Icon_Scan_flashLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C302FD213F7ED100A7BBFA /* Icon_Scan_flashLight.png */; };
+		51C30300213F7ED100A7BBFA /* Icon_Scan_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C302FE213F7ED100A7BBFA /* Icon_Scan_hand.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,6 @@
 		51C302AD213E811A00A7BBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C302AE213E811A00A7BBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51C302C8213F550300A7BBFA /* ExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = SOURCE_ROOT; };
-		51C302CA213F550400A7BBFA /* Icon_Scan_flashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_flashLight.png; sourceTree = "<group>"; };
-		51C302CB213F550400A7BBFA /* Icon_Scan_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_hand.png; sourceTree = "<group>"; };
 		51C302CC213F550400A7BBFA /* InputQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputQRCodeVC.h; sourceTree = "<group>"; };
 		51C302CD213F550400A7BBFA /* InputQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputQRCodeVC.m; sourceTree = "<group>"; };
 		51C302CE213F550400A7BBFA /* InputQRCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputQRCodeVC.xib; sourceTree = "<group>"; };
@@ -41,6 +39,8 @@
 		51C302D1213F550400A7BBFA /* LPScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPScanView.h; sourceTree = "<group>"; };
 		51C302D2213F550400A7BBFA /* LPScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPScanView.m; sourceTree = "<group>"; };
 		51C302D3213F550400A7BBFA /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = SOURCE_ROOT; };
+		51C302FD213F7ED100A7BBFA /* Icon_Scan_flashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_flashLight.png; sourceTree = "<group>"; };
+		51C302FE213F7ED100A7BBFA /* Icon_Scan_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_hand.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		51C302C9213F550400A7BBFA /* LPHQRScan */ = {
 			isa = PBXGroup;
 			children = (
-				51C302CA213F550400A7BBFA /* Icon_Scan_flashLight.png */,
-				51C302CB213F550400A7BBFA /* Icon_Scan_hand.png */,
+				51C302FD213F7ED100A7BBFA /* Icon_Scan_flashLight.png */,
+				51C302FE213F7ED100A7BBFA /* Icon_Scan_hand.png */,
 				51C302CC213F550400A7BBFA /* InputQRCodeVC.h */,
 				51C302CD213F550400A7BBFA /* InputQRCodeVC.m */,
 				51C302CE213F550400A7BBFA /* InputQRCodeVC.xib */,
@@ -161,11 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C30300213F7ED100A7BBFA /* Icon_Scan_hand.png in Resources */,
 				51C302AC213E811A00A7BBFA /* LaunchScreen.storyboard in Resources */,
 				51C302D8213F550400A7BBFA /* InputQRCodeVC.xib in Resources */,
-				51C302D5213F550400A7BBFA /* Icon_Scan_flashLight.png in Resources */,
 				51C302A9213E811A00A7BBFA /* Assets.xcassets in Resources */,
-				51C302D6213F550400A7BBFA /* Icon_Scan_hand.png in Resources */,
+				51C302FF213F7ED100A7BBFA /* Icon_Scan_flashLight.png in Resources */,
 				51C302A7213E811A00A7BBFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

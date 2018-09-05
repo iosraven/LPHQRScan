@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "LPHQRScan/*.png,*.xib"
+    s.resources = "LPHQRScan/images.xcassets/*.png”
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
