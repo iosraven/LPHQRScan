@@ -106,6 +106,9 @@ Pod::Spec.new do |s|
   #
 
    s.resource  = "*.png"
+   s.resource_bundles = {
+    'LPHQRScan' => ['LPHQRScan/*.{xib}']
+   }
   #  s.resources = "*.png”
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
