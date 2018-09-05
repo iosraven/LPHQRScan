@@ -92,7 +92,21 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "LPHQRScan", "LPHQRScan/*.{h,m}"
-  s.resources = "LPHQRScan/*.png”
+  s.exclude_files = "Classes/Exclude"
+
+  # s.public_header_files = "Classes/**/*.h"
+
+
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  A list of resources included with the Pod. These are copied into the
+  #  target bundle with a build phase script. Anything else will be cleaned.
+  #  You can preserve files from being cleaned, please don't preserve
+  #  non-essential files like tests, examples and documentation.
+  #
+
+  # s.resource  = "icon.png"
+    s.resources = "*.png”
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
