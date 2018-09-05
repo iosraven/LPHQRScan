@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LPHQRScan"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Scan QRCode"
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.resource  = "*.png"
+   s.resource  = "LPHQRScan/*.png"
    s.resource_bundles = {
     'LPHQRScan' => ['LPHQRScan/*.{xib}']
    }
