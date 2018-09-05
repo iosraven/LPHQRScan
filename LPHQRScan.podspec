@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
    s.resource  = "LPHQRScan/*.png"
    s.resource_bundles = {
-    'LPHQRScan' => ['{LPHQRScan}/Classes/*.xib']
+    'LPHQRScan' => ['{LPHQRScan}/*.xib']
    }
   #  s.resources = "*.png”
 
