@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LPHQRScan"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Scan QRCode"
-
+ 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
    s.resource  = "LPHQRScan/*.png"
    s.resource_bundles = {
-    'LPHQRScan' => ['LPHQRScan/*.{xib}']
+    'LPHQRScan' => ['{LPHQRScan}/Classes/*.xib']
    }
   #  s.resources = "*.png”
 
