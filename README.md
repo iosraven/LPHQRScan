@@ -1,8 +1,6 @@
 # LPHScan
 ScanQRCode
 
-![image](https://github.com/iosraven/LPHScan/blob/master/IMG_ScanQRCode.PNG)
-![image](https://github.com/iosraven/LPHScan/blob/master/IMG_InputQRCode.PNG)
 /*
  
  调用说明：
@@ -24,3 +22,6 @@ ScanQRCode
     [self.navigationController pushViewController:vc animated:YES];
  
  */
+
+![image](https://github.com/iosraven/LPHScan/blob/master/IMG_ScanQRCode.PNG)
+![image](https://github.com/iosraven/LPHScan/blob/master/IMG_InputQRCode.PNG)
