@@ -41,6 +41,7 @@
 		51C302D3213F550400A7BBFA /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = SOURCE_ROOT; };
 		51C30301213F852700A7BBFA /* Icon_Scan_flashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_flashLight.png; sourceTree = "<group>"; };
 		51C30302213F852700A7BBFA /* Icon_Scan_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Scan_hand.png; sourceTree = "<group>"; };
+		51C303852140CC3E00A7BBFA /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		51C302C9213F550400A7BBFA /* LPHQRScan */ = {
 			isa = PBXGroup;
 			children = (
+				51C303852140CC3E00A7BBFA /* ReadMe.h */,
 				51C30301213F852700A7BBFA /* Icon_Scan_flashLight.png */,
 				51C30302213F852700A7BBFA /* Icon_Scan_hand.png */,
 				51C302CC213F550400A7BBFA /* InputQRCodeVC.h */,
@@ -317,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQNZ85QPJM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LPScanQRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -332,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQNZ85QPJM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LPScanQRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
