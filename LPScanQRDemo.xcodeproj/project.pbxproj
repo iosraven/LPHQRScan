@@ -90,9 +90,9 @@
 		51C302C9213F550400A7BBFA /* LPHQRScan */ = {
 			isa = PBXGroup;
 			children = (
-				51C302CC213F550400A7BBFA /* InputQRCodeVC.h */,
 				51C30301213F852700A7BBFA /* Icon_Scan_flashLight.png */,
 				51C30302213F852700A7BBFA /* Icon_Scan_hand.png */,
+				51C302CC213F550400A7BBFA /* InputQRCodeVC.h */,
 				51C302CD213F550400A7BBFA /* InputQRCodeVC.m */,
 				51C302CE213F550400A7BBFA /* InputQRCodeVC.xib */,
 				51C302CF213F550400A7BBFA /* LPHScanVC.h */,
@@ -317,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				INFOPLIST_FILE = LPScanQRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -332,7 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				INFOPLIST_FILE = LPScanQRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -19,6 +19,18 @@
     
     self.title = @"手动输入二维码";
     
+    
+    // 以下代码用于解决从cocopods加载的xib文件异常处理
+    NSString  *Bundle_Name = @"LPHQRScan.bundle";
+    NSString *Bundle_Path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:Bundle_Name];
+    NSBundle * Bundle = [NSBundle bundleWithPath:Bundle_Path];
+    if(Bundle)
+    {
+        self.view = [Bundle loadNibNamed:@"InputQRCodeVC" owner:self options:nil].lastObject;
+    }
+    
+    
+    
     UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
 
     [self.view addGestureRecognizer:singleTap];
